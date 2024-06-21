@@ -1,0 +1,743 @@
+body {
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvYTAxMC1tYXJrdXNzLTEzMzkuanBn.jpg?s=PKVacxvKXcdeduYf6WnsgoP7r2LUHThkpmugOU7cKDc");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+h1 {
+  color: rgb(172, 136, 37);
+  Text-align: center;
+  font-size: 70px;
+  margin-bottom: -80px;
+  font-family: 'Griffy', cursive;
+  font-family: 'Vast Shadow', cursive;
+
+  animation: h1;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+
+}
+
+@keyframes h1 {
+  from {
+    margin-top: 100%
+  }
+
+  to {
+    margin-left: 70%;
+  }
+
+  100% {
+    transform: rotateY(360deg)
+  }
+
+
+}
+
+
+
+
+h2 {
+  color: rgb(172, 136, 37);
+  margin-left: 50px;
+  text-decoration: overline underline;
+  text-decoration-color: rgb(185, 11, 11);
+}
+
+
+/* Note:Video upload page style*/
+
+.form-vp {
+  background-color: rgb(19, 15, 15);
+  width: 630px;
+  border-style: groove;
+  border-color: rgb(172, 136, 37);
+  margin-left: 380px;
+  margin-top: 100PX;
+  margin-bottom: 300px;
+  opacity: 70%;
+  height: 600px;
+  position: relative;
+  padding-top: 20px;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+}
+
+.frm {
+  position: relative;
+  z-index: 100;
+  margin-left: 150px;
+  width: 350px;
+  color: red;
+  border-color: red;
+  height: 30px;
+}
+
+p,
+article {
+  color: red;
+}
+
+
+a,
+.ndx_nav {
+  color: red;
+  padding: 25px 25px 30px 25px;
+  font-size: 30px;
+  text-decoration: underline overline solid rgb(177, 138, 13);
+
+
+}
+
+a:hover {
+  color: rgb(177, 138, 13);
+  text-transform: uppercase;
+  text-decoration: overline underline;
+  text-decoration-color: rgb(255, 9, 9);
+}
+
+
+
+
+
+
+.ndx_nav {
+  color: rgb(183, 20, 20);
+  padding: 5px 60px 20px 30px;
+  font-size: 25px;
+  text-decoration: underline overline solid rgb(172, 136, 37);
+  margin-top: 10px;
+  margin-right: -60px;
+
+
+}
+
+.navvp:hover {
+  color: silver;
+  text-decoration: underline overline;
+  text-decoration: double rgb(172, 136, 37);
+  text-transform: capitalize;
+
+}
+
+.ndx_div {
+  margin-left: 280px;
+  font-size: 60px;
+  margin-bottom: -30px;
+}
+
+.index-links {
+  margin-left: 90px;
+  margin-bottom: 20px;
+
+
+}
+
+.index-links:hover {
+  color: silver;
+  text-decoration: underline overline;
+  text-decoration: double rgb(172, 136, 37);
+  text-transform: capitalize;
+
+}
+
+label {
+  color: red;
+  font-size: 30px;
+  margin-left: 250px;
+  text-align: center;
+
+}
+
+
+
+button {
+  background-color: black;
+  color: red;
+  width: 100px;
+  border-color: red;
+  position: relative;
+  margin-left: 150px;
+}
+
+input {
+  background-color: black;
+  color: red;
+  margin-bottom: 50px;
+}
+
+
+
+.pick {
+  margin-left: 90px;
+  padding: 50px;
+}
+
+
+
+.index-td {
+  background-color: rgba(12, 12, 12, 0.635);
+  border-style: ridge;
+  border-width: 6px;
+  ;
+  border-color: rgb(194, 53, 53);
+  width: 500px;
+  height: 280px;
+  padding: 5px 0px 5px 30px;
+  margin-bottom: 60px;
+}
+
+.vids {
+  width: 300px;
+  height: 250px;
+  border-style: ridge;
+  border-color: rgb(172, 136, 37);
+  border-width: 15px;
+  border-radius: 20%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 20px 20px 20px 20px;
+
+  animation: prat;
+  animation-play-state: running;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+}
+
+@keyframes prat {
+  from {
+    margin-top: 100%
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+.vids:hover {
+  border-style: ridge;
+  border-color: rgb(250, 6, 6);
+  border-width: 10px;
+  border-radius: 10%;
+  width: 250px;
+  height: 300px;
+}
+
+
+/* Note: Jerk Family Video Detail Page. */
+
+.jf-Body {
+  background-image: url("https://i.ytimg.com/vi/KK3DQNoHqzA/sddefault.jpg");
+  height: 100%;
+
+
+}
+
+.jf-h1 {
+  font-family: 'Griffy', cursive;
+  Font-size: 150px;
+  margin-top: -50px;
+  background-image: url("http://pm1.aminoapps.com/6626/e50b12cbdeda03db15fa5d38c8a0f7dc34eee44c_00.jpg");
+  position: sticky;
+  margin-bottom: 280;
+  padding-top: 18px;
+
+}
+
+.jf-h1,
+.jf_videoLabel,
+.jf-article {
+  color: #fff;
+  font-family: 'Griffy', cursive;
+}
+
+.jf-vdp {
+  width: 560px;
+  height: 402px;
+  position: relative;
+  border-radius: 15%;
+  border-color: rgb(187, 47, 206);
+  border-width: 5px;
+  background-color: rgba(30, 143, 255, 0.301);
+  padding: 20px 20px 20px 20px;
+  margin-top: 130px;
+  margin-left: 355px;
+  margin-bottom: 40px;
+
+}
+
+.jf-article {
+  color: rgb(187, 47, 206);
+  text-align: center;
+  padding: 35px 15px 15px 15px;
+
+}
+
+.jf-article-div {
+  font-size: 20px;
+  font-family: 'Satisfy', cursive;
+  width: 950px;
+  height: 470px;
+  position: static;
+  margin-left: 220px;
+  margin-top: 110px;
+  margin-bottom: 100px;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.801);
+  border-style: ridge;
+  border-color: lightskyblue;
+
+
+
+
+}
+
+.jf-navlinks {
+  color: #fff;
+  padding: 0px 100px 20px 30px;
+  font-size: 25px;
+  text-decoration: underline overline solid rgb(187, 47, 206);
+  margin-top: 80px;
+  margin-right: -60px;
+  margin-left: 55px;
+  text-align: center;
+
+
+}
+
+
+.jf-navlinks:hover {
+  color: rgb(177, 138, 13);
+  text-transform: uppercase;
+  text-decoration: overline underline;
+  text-decoration-color: rgb(255, 255, 255);
+}
+
+.jf-article-link {
+  color: #fff;
+  padding: 0px 100px 20px 30px;
+  font-size: 20px;
+  text-decoration: underline overline solid rgb(187, 47, 206);
+  margin-left: 20px;
+
+}
+
+.jf-nav {
+  background-image: url("http://pm1.aminoapps.com/6626/e50b12cbdeda03db15fa5d38c8a0f7dc34eee44c_00.jpg");
+  border-style: ridge;
+  border-color: white;
+  border-width: 4px;
+  margin-top: -80px;
+  height: 80px;
+  padding-top: 15px;
+}
+
+
+
+
+.jf-navlinks:hover {
+  color: rgb(187, 47, 206);
+  font-size: 35px;
+  text-transform: capitalize;
+
+
+}
+
+.jf-navdiv {
+  margin-left: 200px;
+  margin-bottom: 50px;
+
+}
+
+.jf_videoLabel {
+  color: rgb(220, 144, 227);
+  Text-align: center;
+  font-size: 50px;
+  margin-bottom: -50px;
+  position: relative;
+  margin-top: -1px;
+
+  animation: jf_videolabel;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+
+}
+
+@keyframes jf_videolabel {
+  from {
+    margin-top: 100%
+  }
+
+  to {
+    margin-left: 50%
+  }
+
+  100% {
+    transform: rotateY(360deg)
+  }
+
+
+}
+
+
+
+
+
+
+/* Note: Ryan Destiny Video Detail Page. */
+
+.RyD-body {
+  background-image: url("https://i0.wp.com/soulbounce.com/wp-content/uploads/2022/12/Ryan-Destiny-How-Many-Still.jpg?w=800&ssl=1");
+
+
+
+}
+
+.RyD-h1 {
+  Font-size: 150px;
+  margin-top: -50px;
+}
+
+.RyD-h1,
+.RyD_videoLabel,
+.RyD-article {
+  color: #fff;
+  font-family: 'Satisfy', cursive;
+}
+
+.RyD-vdp {
+  width: 560px;
+  height: 420px;
+  position: relative;
+  border-radius: 15%;
+  border-color: #fff;
+  border-width: 5px;
+  background-color: rgba(30, 143, 255, 0.301);
+  padding: 20px 20px 20px 20px;
+  margin-top: 220px;
+
+}
+
+
+
+
+.RyD-article-div {
+  font-size: 20px;
+  font-family: 'Satisfy', cursive;
+  width: 640px;
+  height: 599px;
+  position: relative;
+  margin-left: 680px;
+  margin-top: -20px;
+  margin-bottom: 15090+px;
+  align-content: center;
+
+
+
+}
+
+.RyD-navlinks {
+  color: #fff;
+  padding: 0px 100px 20px 30px;
+  font-size: 25px;
+  text-decoration: underline overline solid rgb(22, 111, 201);
+  margin-top: 150px;
+  margin-right: -60px;
+
+
+
+}
+
+.RyD-navlinks:hover {
+  color: rgb(5, 7, 88);
+  font-size: 35px;
+  text-transform: capitalize;
+
+}
+
+.RyD-navdiv {
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+
+}
+
+.RyD_videoLabel {
+  color: #ffff;
+  Text-align: center;
+  font-size: 50px;
+  margin-bottom: -50px;
+  position: relative;
+  margin-top: -1px;
+
+  animation: RyD_vl;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+
+}
+
+@keyframes RyD_vl {
+  from {
+    margin-top: 100%
+  }
+
+  to {
+    margin-left: 50%
+  }
+
+  100% {
+    transform: rotateY(360deg)
+  }
+
+
+}
+
+.RyD_videoLabel-div {
+  width: 380px;
+  height: 80px;
+  position: static;
+  margin-left: 780px;
+  margin-top: -500px;
+  padding: none;
+}
+
+/* Note: Happy Pitbull Video Detail Page. */
+
+.hpb-Body {
+  background-image: url("https://cdn.pixabay.com/photo/2023/04/16/19/06/dog-7930973_1280.jpg");
+
+
+}
+
+.hpb-h1 {
+  Font-size: 100px;
+  margin-bottom: -280px;
+  margin-top: -350;
+
+
+
+
+}
+
+.hpb-h1,
+.hpb_videoLabel {
+  color: rgb(116, 219, 68);
+  font-family: 'Satisfy', cursive;
+  margin-bottom: -600px;
+}
+
+.hpb-vdp {
+  width: 480px;
+  height: 420px;
+  position: static;
+  border-radius: 15%;
+  border-color: rgb(116, 219, 68);
+  border-width: 5px;
+  background-color: rgba(56, 255, 30, 0.185);
+  padding: 20px 20px 20px 20px;
+  margin-top: 750px;
+  margin-left: 750px;
+  margin-bottom: 300px;
+
+}
+
+.hpb-article {
+  color: rgb(220, 148, 253);
+  text-align: center;
+  width: 560px;
+  background-color: rgba(0, 0, 0, 0.363);
+  border-style: ridge;
+  border-color: rgb(116, 219, 68);
+  border-width: 3px;
+  position: relative;
+  margin-top: -800px;
+  margin-bottom: 1050;
+
+  padding: 15px 10px 10px 10px;
+}
+
+
+.hpb-navlinks {
+  color: #6cf082;
+  padding: 20px 10px 20px 30px;
+  font-size: 25px;
+  text-decoration: underline overline solid rgb(187, 47, 206);
+  margin-top: 50px;
+  margin-bottom: -550px;
+  margin-right: -60px;
+  margin-left: 55px;
+  text-align: center;
+
+}
+
+
+.hpb-nav-div {
+  margin-left: 150px;
+  width: 1050px;
+  margin-top: 150px;
+}
+
+
+.hpb-navlinks:hover {
+  color: rgb(47, 182, 206);
+  font-size: 35px;
+
+  text-transform:capitalize:uppercase .hpb-article-link {
+    color: #078807;
+    padding: 0px 100px 20px 30px;
+    font-size: 20px;
+    text-decoration: underline overline solid;
+    text-decoration-color: rgb(116, 219, 68);
+    margin-left: 20px;
+
+  }
+
+
+
+  .hpb-nav {
+    margin-top: 80px;
+    height: 80px;
+    padding-top: 15px;
+    text-decoration: underline overline solid;
+    text-decoration-color: rgb(116, 219, 68);
+    margin-left: 20px;
+
+
+  }
+}
+
+.hpb_videolabel {
+  color: rgb(74, 240, 96);
+  Text-align: center;
+  font-size: 50px;
+  margin-bottom: 800px;
+  position: absolute;
+  margin-left: 780px;
+  margin-top: -280px;
+
+
+  animation: hpb_videolabel;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+
+}
+
+@keyframes hpb_videolabel {
+  from {
+    margin-top: 100%
+  }
+
+  to {
+    margin-left: 50%
+  }
+
+  100% {
+    transform: perspective(360deg)
+  }
+
+
+}
+
+/* Used to fine tune and adjust elements */
+
+.off-links {
+  align-self: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.off-links:hover {
+  color: silver;
+  text-decoration: double underline overline rgb(172, 136, 37);
+  text-transform: capitalize;
+}
+
+#fp {
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+#ta {
+  max-width: 350px;
+  max-height: 90px;
+  min-width: 350px;
+  min-height: 90px;
+  margin-bottom: 25px;
+  margin-top: 2px;
+  background-color: black;
+}
+
+#pab,
+#cp {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#cfl {
+  margin-left: 150px;
+}
+
+#cfb {
+  margin-left: 150px;
+  width: 150px;
+  border-color: red;
+  margin-left: 100px;
+  padding: 2px;
+}
+
+#collections {
+  margin-left: -170px;
+  margin-top: 30px;
+  width: 200px;
+  background-color: black;
+  color: red;
+  padding: 3px;
+  border-color: red;
+}
+
+#RyD-videolink {
+  margin-left: -30px;
+}
+
+
+#c3-h1 {
+  margin-left: 50px;
+}
+
+
+#rf-videolink {
+  margin-left: -30px;
+}
+
+#jb-videolink {
+  margin-left: -26px;
+}
+
+.fl-videolink {
+  margin-left: 40px;
+}
+
+#beyonce-videolink {
+  margin-left: 30px;
+}
+
+#sw-videolink {
+  margin-left: -18px;
+}
+
+#monica-videolink {
+  margin-left: 20px;
+}
+
+#kl-videolink {
+  margin-left: 15px;
+}

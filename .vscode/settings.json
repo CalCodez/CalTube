@@ -1,0 +1,30 @@
+{
+  "cSpell.ignoreWords": [
+    "FRONTROW",
+    "HARU",
+    "Pitbull"
+  ],
+  "animations.CursorAnimation": true,
+  "animations.Active": "Indent",
+  "animations.Durations": {
+    "Command-Palette": 300,
+    "Tabs": 200,
+    "Active": 200,
+    "Scrolling": 200,
+    "Smooth-Mode": 200
+  },
+  "animations.Tabs": "Flip",
+  "animations.Scrolling": "Fade",
+  "workbench.reduceMotion": "off",
+  "animations.Command-Palette": "Slide",
+  "animations.CursorAnimationOptions": {
+    "Color": "#ff0000",
+    "CursorStyle": "line",
+    "TrailLength": 10
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.screenReaderAnnounceInlineSuggestion": true
+}
