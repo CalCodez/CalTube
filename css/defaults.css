@@ -2,13 +2,13 @@
 	--white: #ffff;
 	--true-black: #000;
 	--black: #181818;
-	--black: #212121;
-	--black-gray: #3d3d3d;
+	--black-gray-dark: #212121;
+	--gray-dark: #3d3d3d;
+	--gray-light: #a3a3a3;
 	--logo-color-dark: #ac0f25;
 	--red-main: #f00000;
 	--red-dark: #cc0000;
 	--gray-variant: #aaaaaa;
-	--gray-dark: #a3a3a3;
 	--gray-dark-transparent: #a3a3a351;
 	--gray-light: #e5e5e5;
 
@@ -51,6 +51,7 @@ body {
 	outline: 1px solid yellow;
 	place-content: center;
 	place-items: center;
+	margin-top: 5px;
 }
 
 ul,
@@ -87,13 +88,96 @@ i {
 
 .header-bar-container {
 	display: flex;
+	flex-direction: column;
+	place-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 20%;
+	background-color: var(--black);
+	position: fixed;
+	top: 0;
+}
+
+.logo-search-user-container {
+	display: flex;
 	flex-direction: row;
 	width: 100%;
-	height: 8%;
-	outline: 1px solid green;
-	background-color: var(--black);
+	height: 15%;
+	margin-top: 10px;
+	align-items: center;
+	justify-content: space-around;
 }
-.menu-video-container {
+
+.link-bar-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 15%;
+	outline: 1px solid yellow;
+}
+
+.menutoggler-logo-handler,
+.mic-sign-in-handler {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.header-bar-container i {
+	color: var(--logo-color-dark);
+	outline: 1px solid yellow;
+	height: 100%;
+	font-size: 2em;
+}
+.logo-continaer {
+	height: 100%;
+	width: 50%;
+}
+
+.logo-continaer img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.search-bar-container {
+	display: flex;
+	width: auto;
+	outline: 1px solid white;
+	position: relative;
+}
+
+input {
+	background-color: var(--ture-black);
+	color: var(--logo-color-dark);
+	padding: 5px;
+	border-radius: 10px;
+	width: 300px;
+	box-shadow: 1px 1px 5px 1px var(--logo-color-dark);
+	border: 2px ridge var(--red-main);
+}
+
+.search-bar-container i {
+	position: absolute;
+	z-index: 1;
+	left: 90%;
+	font-size: 1.2em;
+}
+
+.menutoggler-logo-handler {
+	display: flex;
+	flex-direction: row;
+	width: 40%;
+	height: 100%;
+	gap: 20px;
+}
+
+.logo-continaer {
+	width: 10%;
+	outline: 1px solid yellow;
+}
+
+.logo-continaer .menu-video-container {
 	display: flex;
 	flex-direction: row;
 	height: 92%;
@@ -106,7 +190,7 @@ i {
 	flex-direction: column;
 	width: 5%;
 	height: 100%;
-	background-color: var(--black);
+	background-color: var(--true-black);
 }
 
 .sliding-menu-container {
