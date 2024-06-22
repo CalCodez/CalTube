@@ -1,14 +1,16 @@
 :root {
 	--white: #ffff;
+	--true-black: #000;
+	--black: #181818;
+	--black: #212121;
+	--black-gray: #3d3d3d;
 	--logo-color-dark: #ac0f25;
 	--red-main: #f00000;
 	--red-dark: #cc0000;
 	--gray-variant: #aaaaaa;
 	--gray-dark: #a3a3a3;
+	--gray-dark-transparent: #a3a3a351;
 	--gray-light: #e5e5e5;
-	--black: #181818;
-	--black: #212121;
-	--black-gray: #3d3d3d;
 
 	/*
 	--font-color-main
@@ -26,9 +28,29 @@
 	margin: 0;
 	/* global font family */
 }
+
+html {
+	display: flex;
+	padding: 2px;
+	place-content: center;
+	place-items: center;
+	background-color: var(--true-black);
+}
 body {
 	display: flex;
 	flex-direction: column;
+	background-image: linear-gradient(
+		90deg,
+		rgba(172, 15, 37, 1) 0%,
+		rgba(0, 0, 0, 1) 50%,
+		rgba(172, 15, 37, 1) 100%
+	);
+
+	height: 100%;
+	width: 100%;
+	outline: 1px solid yellow;
+	place-content: center;
+	place-items: center;
 }
 
 ul,
@@ -48,3 +70,59 @@ a {
 .containers
 .buttons
  */
+
+i {
+	color: red;
+	font-size: 48px;
+}
+
+.main-body-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--gray-dark-transparent);
+	place-self: center;
+}
+
+.header-bar-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 8%;
+	outline: 1px solid green;
+	background-color: var(--black);
+}
+.menu-video-container {
+	display: flex;
+	flex-direction: row;
+	height: 92%;
+	outline: 1px solid white;
+	position: relative;
+}
+
+.main-menu-container {
+	display: flex;
+	flex-direction: column;
+	width: 5%;
+	height: 100%;
+	background-color: var(--black);
+}
+
+.sliding-menu-container {
+	display: none;
+	flex-direction: column;
+	width: 15%;
+	height: 100%;
+	outline: 1px dashed yellow;
+	position: absolute;
+	background-color: rgba(0, 0, 255, 0.241);
+	z-index: 2;
+}
+.linkbar-video-container {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	height: 100%;
+	outline: 1px solid yellow;
+}
