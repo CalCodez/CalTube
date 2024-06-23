@@ -72,8 +72,11 @@ a {
  */
 
 i {
-	color: red;
-	font-size: 48px;
+	color: var(--logo-color-dark);
+}
+
+hr {
+	border-color: var(--logo-color-dark);
 }
 
 .main-body-container {
@@ -95,6 +98,7 @@ i {
 	background-color: var(--true-black);
 	position: fixed;
 	top: 0;
+	padding-top: 5px;
 }
 
 .logo-search-user-container {
@@ -232,9 +236,16 @@ input {
 	box-shadow: -1px 1px 8px 2px var(--gray-variant);
 }
 
+#sign-button-like:hover {
+	transform: scale(1.1);
+}
+
 .main-menu-container {
 	display: flex;
 	flex-direction: column;
+	place-content: felx-start;
+	place-items: center;
+	gap: 25px;
 	width: 6.8%;
 	height: 90vh;
 	background-color: var(--true-black);
@@ -243,15 +254,55 @@ input {
 	bottom: 0;
 }
 
+.main-menu-container .main-menu-list-wrapper {
+	display: flex;
+	flex-direction: column;
+	place-content: felx-start;
+	place-items: center;
+	height: fit-content;
+	width: 99%;
+	gap: 40px;
+	margin-top: 80px;
+}
+
+.main-menu-container .main-menu-list-wrapper li {
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	text-align: center;
+	width: 65%;
+	height: 10%;
+	text-align: cetner;
+	line-height: 2;
+}
+
+.main-menu-container hr {
+	width: 95%;
+	border: 2px ridge var(--logo-color-dark);
+}
+
+.main-menu-container li i {
+	font-size: large;
+}
+
+.main-menu-container a {
+	color: var(--logo-color-dark);
+	font-weight: 700;
+	font-size: x-small;
+}
+.main-menu-container a:hover {
+	transform: scale(1.1);
+}
+
 .sliding-menu-container {
-	display: none;
+	display: block;
 	flex-direction: column;
 	width: 15%;
-	height: 85vh;
+	height: 100vh;
 	position: absolute;
 	background-color: var(--true-black);
 	bottom: 0;
-	z-index: 2;
+	z-index: 3;
 }
 .linkbar-video-container {
 	display: flex;
