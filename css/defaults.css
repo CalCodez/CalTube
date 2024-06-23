@@ -293,3 +293,22 @@ input {
 	width: 95%;
 	height: 100%;
 }
+
+.video-contianer {
+	display: flex;
+	flex-direction: row;
+	place-content: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.simple-card {
+	width: 350px;
+	height: 250px;
+	border: 2px ridge gold;
+	background-color: var(--gray-dark-transparent);
+}
