@@ -38,7 +38,7 @@ html {
 }
 body {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	background-image: linear-gradient(
 		90deg,
 		rgba(172, 15, 37, 1) 0%,
@@ -79,167 +79,6 @@ hr {
 	border-color: var(--logo-color-dark);
 }
 
-.main-body-container {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	height: 100vh;
-	background-color: var(--gray-dark-transparent);
-	place-self: center;
-}
-
-.header-bar-container {
-	display: flex;
-	flex-direction: column;
-	place-items: center;
-	justify-content: space-between;
-	width: 100%;
-	height: 20%;
-	background-color: var(--true-black);
-	position: fixed;
-	top: 0;
-	padding-top: 5px;
-}
-
-.logo-search-user-container {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	height: 40%;
-	margin-top: 10px;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.link-bar-container {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	height: 30%;
-	background-color: var(--gray-dark);
-}
-
-.menutoggler-logo-handler,
-.mic-sign-in-handler {
-	display: flex;
-	flex-direction: row;
-	height: 100%;
-}
-
-.header-bar-container i {
-	color: var(--logo-color-dark);
-	height: 100%;
-	font-size: 2em;
-	place-content: center;
-	text-align: center;
-}
-
-.header-bar-container .menutoggler-logo-handler {
-	width: 15%;
-}
-
-.menutoggler-logo-handler .menu-toggler-container,
-.menutoggler-logo-handler .logo-continaer {
-	width: 50%;
-}
-
-.menu-toggler-container {
-	text-align: center;
-}
-
-.logo-continaer {
-	height: 100%;
-	width: 50%;
-}
-
-.logo-continaer img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-}
-
-.search-bar-container {
-	display: flex;
-	width: auto;
-	position: relative;
-	height: 80%;
-	place-items: center;
-	margin-left: -20px;
-}
-
-input {
-	background-color: var(--ture-black);
-	color: var(--logo-color-dark);
-	padding: 14px;
-	border-radius: 10px;
-	width: 60vw;
-	box-shadow: 1px 1px 5px 1px var(--logo-color-dark);
-	border: 2px ridge var(--red-main);
-}
-
-.search-bar-container i {
-	position: absolute;
-	z-index: 1;
-	left: 90%;
-	font-size: 1.2em;
-}
-
-.menutoggler-logo-handler {
-	display: flex;
-	flex-direction: row;
-	width: 40%;
-	height: 100%;
-	gap: 20px;
-}
-
-.logo-continaer {
-	width: 10%;
-	border-radius: 50%;
-}
-
-.mic-sign-in-handler {
-	display: flex;
-	flex-direction: row;
-	place-content: center;
-	width: 15%;
-	justify-content: space-between;
-}
-
-.sign-in-container {
-	display: flex;
-	place-content: center;
-	place-items: center;
-	position: relative;
-	width: 40%;
-	margin-right: 50px;
-}
-
-.sign-in-container .fa-user {
-	position: absolute;
-	font-size: 1rem;
-	z-index: 1;
-	height: fit-content;
-	color: var(--true-black);
-	left: 6%;
-}
-#sign-button-like {
-	display: flex;
-	width: 100%;
-	height: 50%;
-	background-color: var(--black);
-	background-color: var(--logo-color-dark);
-	border-radius: 8px;
-	padding: 2px;
-	place-content: center;
-	align-items: center;
-	color: var(--true-black);
-	box-shadow: -1px 1px 8px 2px var(--gray-variant);
-}
-
-#sign-button-like:hover {
-	transform: scale(1.1);
-}
-
 .main-menu-container {
 	display: flex;
 	flex-direction: column;
@@ -247,11 +86,21 @@ input {
 	place-items: center;
 	gap: 25px;
 	width: 6.8%;
-	height: 90vh;
+	height: 100vh;
 	background-color: var(--true-black);
-	z-index: 2;
-	position: fixed;
 	bottom: 0;
+	left: 0;
+}
+
+.menu-toggler-container {
+	width: 65%;
+	text-align: center;
+	margin-bottom: -50px;
+	margin-top: 20px;
+}
+#menu-toggler {
+	font-size: 40px;
+	line-height: 1.2;
 }
 
 .main-menu-container .main-menu-list-wrapper {
@@ -292,6 +141,140 @@ input {
 }
 .main-menu-container a:hover {
 	transform: scale(1.1);
+}
+
+.main-body-container {
+	display: flex;
+	flex-direction: column;
+	width: 93.4%;
+	height: 100vh;
+	background-color: var(--gray-dark-transparent);
+	place-self: center;
+}
+
+.header-bar-container {
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 20%;
+	background-color: var(--true-black);
+	top: 0;
+	padding-top: 5px;
+}
+.header-bar-container i {
+	color: var(--logo-color-dark);
+	height: 100%;
+	font-size: 2em;
+	place-content: center;
+	text-align: center;
+}
+
+.logo-search-user-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 40%;
+	margin-top: 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo-search-user-container .logo-continaer {
+	width: 8%;
+	height: 100%;
+	box-shadow: -2px 2px 8px 2px var(--logo-color-dark);
+	border-radius: 30px;
+}
+
+.logo-continaer img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 20;
+}
+
+.search-bar-container {
+	display: flex;
+	width: auto;
+	position: relative;
+	height: 80%;
+	place-items: center;
+}
+
+.search-bar-container i {
+	position: absolute;
+	z-index: 1;
+	left: 90%;
+	font-size: 1.2em;
+}
+
+input {
+	background-color: var(--ture-black);
+	color: var(--logo-color-dark);
+	padding: 14px;
+	border-radius: 10px;
+	width: 60vw;
+	box-shadow: 1px 1px 5px 1px var(--logo-color-dark);
+	border: 2px ridge var(--red-main);
+}
+
+.mic-sign-in-handler {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.mic-sign-in-handler {
+	display: flex;
+	flex-direction: row;
+	place-content: center;
+	width: 15%;
+	justify-content: space-around;
+	margin-right: 100px;
+}
+
+.sign-in-container {
+	display: flex;
+	place-content: center;
+	place-items: center;
+	position: relative;
+	width: 40%;
+}
+
+.sign-in-container .fa-user {
+	position: absolute;
+	font-size: 1rem;
+	z-index: 1;
+	height: fit-content;
+	color: var(--true-black);
+	left: 6%;
+}
+#sign-button-like {
+	display: flex;
+	width: 100%;
+	height: 50%;
+	background-color: var(--black);
+	background-color: var(--logo-color-dark);
+	border-radius: 8px;
+	padding: 2px;
+	place-content: center;
+	align-items: center;
+	color: var(--true-black);
+	box-shadow: -1px 1px 8px 2px var(--gray-variant);
+}
+
+#sign-button-like:hover {
+	transform: scale(1.1);
+}
+
+.link-bar-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 30%;
+	background-color: var(--gray-dark);
 }
 
 .sliding-menu-container {
