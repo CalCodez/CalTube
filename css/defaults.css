@@ -31,6 +31,7 @@
 
 html {
 	display: flex;
+
 	padding: 2px;
 	place-content: center;
 	place-items: center;
@@ -381,4 +382,11 @@ iframe:hover {
 	transform: scale(1.1);
 	border-color: var(--black-gray-dark);
 	color: var(--gray-variant);
+}
+
+footer {
+	height: 250px;
+	width: 100%;
+	background-color: var(--true-black);
+	outline: 2px solid lime;
 }
