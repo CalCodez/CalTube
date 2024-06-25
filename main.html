@@ -15,15 +15,16 @@
 
   <body>
     <div class="main-menu-container">
-      <div class="menu-toggler-container"><i id="menu-toggler" class="fa-solid fa-bars"></i></div>
+      <div class="menu-toggler-container"><i data-open="modal-menu" id="menu-toggler" class="fa-solid fa-bars"></i>
+      </div>
       <div class="main-menu-list-wrapper">
         <li><a href="./collections/all_artist.html"><i class="fa-solid fa-border-all"></i> <br>All Artist</a></li>
         <hr>
-        <li><a href="./collections/female_artist.html"><i class="fa-solid fa-star"></i><br>Female Artist</a></li>
-        <li><a href="./collections/male_artist.html"><i class="fa-solid fa-star"></i><br>Male Artist</a></li>
-        <li><a href="./collections/group_artist.html"><i class="fa-solid fa-star"></i><br>Group Artist</a></li>
+        <li><a href="./collections/female_artist.html"><i class="fa-solid fa-venus"></i><br>Female Artist</a></li>
+        <li><a href="./collections/male_artist.html"><i class="fa-solid fa-mars"></i><br>Male Artist</a></li>
+        <li><a href="./collections/group_artist.html"><i class="fa-solid fa-user-group"></i><br>Group Artist</a></li>
         <hr>
-        <li><a href="./main.html"><i class="fa-solid fa-shuffle"></i><br>Upload <br>New Video</a></li>
+        <li><a href="./main.html"><i class="fa-solid fa-upload"></i><br>Upload <br>New Video</a></li>
       </div>
     </div>
     <div class="main-body-container">
@@ -43,8 +44,8 @@
               <i class="fa-solid fa-microphone"></i>
             </div>
             <div class="sign-in-container">
-              <i class="fa-solid fa-user"></i>
-              <a id="sign-button-like" href="#">Sign-in</a>
+
+              <a id="sign-button-like" href="#"><i class="fa-solid fa-user"></i>Sign-in</a>
             </div>
           </div>
         </div>
@@ -55,6 +56,57 @@
 
 
       </div>
+
+
+      <!-- **Menu Modal -->
+      <div class="full-site-modal page-block modal" id="modal-menu" data-animation="zoomInOut" data-close="page-block">
+        <div class="main-menu-container">
+          <div class="menu-toggler-container"><i data-close="modal-menu" id="menu-toggler" class="fa-solid fa-bars"></i>
+            <div class="logo-continaer">
+              <img src="/calTubeAssests/logos/caltubelogo_1.png" alt="caltube logo">
+            </div>
+          </div>
+          <div class="main-menu-list-wrapper">
+
+            </i>
+            <li><a href="./collections/all_artist.html"><i class="fa-solid fa-border-all"></i> All Artist</a></li>
+            <li><a href="./collections/female_artist.html"><i class="fa-solid fa-venus"></i> Female Artist</a></li>
+            <li><a href="./collections/male_artist.html"><i class="fa-solid fa-mars"></i> Male Artist</a></li>
+            <li><a href="./collections/group_artist.html"><i class="fa-solid fa-user-group"></i> Group Artist</a>
+            </li>
+            <li><a href="./main.html"><i class="fa-solid fa-upload"></i>Upload New Video</a></li>
+            <hr>
+            <div class="sorce-container">
+              <div class="sorce-wrapper">
+                <div class="img-handler"><img src="./calTubeAssests/icons/youtube_logo.png" alt="youtube logo"></div>
+                <p>Video Sorce</p>
+                <a href="www.youtube.com">YouTube</a>
+              </div>
+              <div class="sorce-wrapper">
+                <div class="img-handler"><img src="./calTubeAssests/icons/flaticon.png" alt="flaticon logo"></div>
+                <p>Icons Sorce</p>
+
+                <a href=" https://www.flaticon.com/free-icons/flaticon" title="flaticon icons"">Flaticon</a>
+              </div>
+              <div class=" sorce-wrapper">
+                  <div class="img-handler"><img src="./calTubeAssests/icons/fontawesome.png" alt="font awesome logo">
+                  </div>
+                  <p>Icons Sorce</p>
+
+                  <a href="www.fontawesome">FontAwesome</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-content-wrapper">
+
+
+
+        </div>
+      </div>
+
+
+
     </div>
 
 

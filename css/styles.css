@@ -1,0 +1,99 @@
+/*Modal Styles*/
+.full-site-modal.page-block {
+	display: flex;
+	background: rgba(0, 0, 0, 0.331);
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow-y: scroll;
+	scroll-behavior: auto;
+	place-self: center;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition: all 0.2s ease-in;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 99;
+	padding: 2rem;
+}
+
+.modal .main-menu-container {
+	width: 15%;
+}
+
+.modal .menu-toggler-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-end;
+	height: 11%;
+	align-items: center;
+	gap: 46px;
+}
+.modal #menu-toggler {
+	font-size: 30px;
+	margin-top: -26px;
+	line-height: 1.2;
+}
+
+.modal .main-menu-container .logo-continaer {
+	width: 50%;
+	height: 80%;
+	box-shadow: -2px 2px 8px 2px var(--logo-color-dark);
+	border-radius: 30px;
+	margin-top: -18px;
+}
+
+.modal .main-menu-list-wrapper a {
+	text-align: justify;
+	flex-direction: row;
+	font-size: 0.8em;
+}
+
+.modal .main-menu-list-wrapper a .fa-user-group {
+	font-size: 1em;
+}
+
+.modal .sorce-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: fit-content;
+	gap: 20px;
+}
+
+.modal .sorce-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	height: fit-content;
+	color: var(--logo-color-dark);
+}
+
+.modal .sorce-container .img-handler {
+	height: 100%;
+	width: 10%;
+	align-content: center;
+	justify-items: space-evenly;
+	border-radius: 8px;
+}
+
+.modal .sorce-container .img-handler img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.modal .full-site-modal.is-visible,
+.modal.is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+[data-anamation='zoomInOUt'].full-site-modal {
+	transform: scale(5);
+}
