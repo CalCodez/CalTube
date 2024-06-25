@@ -1,85 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8" />
-        <title>My Tube</title>
-        <link rel="stylesheet" href="style.css">
-
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Griffy&family=Vast+Shadow&display=swap" rel="stylesheet">
+        <title>CalTube</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/css/defaults.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+        <link rel="stylesheet" href="/css/animation.css">
     </head>
 
     <body>
-        <div >
-            <nav class="ndx_div">
-                <a class="ndx_nav" href="/index.html">Home</a>
-                <a class="ndx_nav" href="/Pages/collection one.html">Collection 1</a>
-                <a class="ndx_nav" href="/Pages/collection two.html">Collection 2</a>
-                <a class="ndx_nav" href="/Pages/collection three.html">Collection 3</a>
-                <a class="ndx_nav" href="/new upload form.html">Upload New Video</a>
-           </nav>
-       </div>
+        <div class="main-menu-container">
+            <div class="menu-toggler-container"><i id="menu-toggler" class="fa-solid fa-bars"></i></div>
+            <div class="main-menu-list-wrapper">
+                <li><a href="/main.html"><i class="fa-solid fa-house"></i><br>Home</a></li>
+                <hr>
+                <li><a href="/collections/female_artist.html"><i class="fa-solid fa-star"></i><br>Female Artist</a></li>
+                <li><a href="/collections/male_artist.html"><i class="fa-solid fa-star"></i><br>Male Artist</a></li>
+                <li><a href="/collections/group_artist.html"><i class="fa-solid fa-star"></i><br>Group Artist</a></li>
+                <hr>
+                <li><a href="/collections/all_artist.html"><i class="fa-solid fa-border-all"></i><br>All Artist</a></li>
 
-            
-        <h1>Add New Video</h1>
-        <div class="form-vp">
+            </div>
+        </div>
+        <div class="main-body-container">
+            <div class="header-bar-container">
+                <div class="logo-search-user-container">
+                    <div class="logo-continaer">
+                        <img src="/calTubeAssests/logos/caltubelogo_1.png" alt="caltube logo">
+                    </div>
+                    <div class="search-bar-container">
+                        <div class="search-icon-container">
+                            <input type="text" placeholder="SEARCH">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="mic-sign-in-handler">
+                        <div class=".mic-container">
+                            <i class="fa-solid fa-microphone"></i>
+                        </div>
+                        <div class="sign-in-container">
+                            <i class="fa-solid fa-user"></i>
+                            <a id="sign-button-like" href="#">Sign-in</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="link-bar-container"></div>
+            </div>
+            <!-- ++ -->
+            <div class="video-contianer-body">
 
-            
-         <label><b>Video Title</b></label> <br />
-         <input class="frm" type="text" value="Enter video Title">
-         <br><br>
+            </div>
 
-         <label><b>Description</b></label> <br />
+        </div>
+        </div>
 
-            <textarea class="frm" id="ta" >"Enter Video Description"
-            
-          </textarea>
 
-         <br><br>
 
-         <form class="frm">
-            <label id="cfl"><b>Video</b></label> <br />
-            <input id="cfb"  type="button" value="choose File">
-         </form> 
-                             
-        
-         <br />
-         <form class="frm">
-            <label for="Choose Collection" input type="select"> </label>
-
-               <select label for="Choose Collection" id="collections" maxlength="10">
-                        
-                    <datalist id="Choose Colection">
-                         <option>Collection One</option>
-                         <option>Collection Two</option>
-                         <option>Collection Three</option>
-                         <option>Collection Four</option>
-                    </datalist>
-                </select>
-             <br /><br />
-             <input class="pick" type="radio" name="pick"> Public
-             <input class="pick" type="radio" name="pick" />Private
-
-             <br /><br /><br />
-                <button type="submit">Upload Video</button>
-             </form>
-     </div>
-
-     <div>
-         <nav class="ndx_div">
-             <a class="ndx_nav" href="/index.html">Home</a>
-             <a class="ndx_nav" href="/Pages/collection one.html">Collection 1</a>
-             <a class="ndx_nav" href="/Pages/collection two.html">Collection 2</a>
-             <a class="ndx_nav" href="/Pages/collection three.html">Collection 3</a>
-             <a class="ndx_nav" href="/new upload form.html">Upload New Video</a>
-      </nav>
-    </div>
-
-        <footer>
-            <p id="CopyR">
-                &copy:Copyright"
-            </p>
-        </footer>
+        <script src="/js/main.js"></script>
     </body>
+
 </html>

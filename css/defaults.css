@@ -101,7 +101,7 @@ hr {
 	margin-top: 20px;
 }
 #menu-toggler {
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 1.2;
 }
 
@@ -127,8 +127,8 @@ hr {
 	line-height: 2;
 }
 
-.main-menu-container hr {
-	width: 95%;
+.main-menu-list-wrapper hr {
+	width: 90%;
 	border: 2px ridge var(--logo-color-dark);
 }
 
@@ -352,6 +352,13 @@ iframe:hover {
 	height: 20%;
 	width: 100%;
 	color: var(--gray-light);
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.video-details h4 {
+	color: var(--logo-color-dark);
+	font-size: small;
 }
 
 .video-btn-container {
@@ -382,11 +389,4 @@ iframe:hover {
 	transform: scale(1.1);
 	border-color: var(--black-gray-dark);
 	color: var(--gray-variant);
-}
-
-footer {
-	height: 250px;
-	width: 100%;
-	background-color: var(--true-black);
-	outline: 2px solid lime;
 }
