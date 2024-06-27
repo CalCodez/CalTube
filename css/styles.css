@@ -1,3 +1,74 @@
+/* Artist Page Styles */
+.artist-page-containers {
+	display: flex;
+	flex-direction: row;
+	place-content: center;
+	place-items: center;
+	outline: 1px solid yellow;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.artist-page-top-container {
+	height: 70vh;
+	outline: 1px solid white;
+}
+.artist-page-bottom-container {
+	height: 30vh;
+}
+
+.artist-page-video-container,
+.sub-video-container {
+	display: flex;
+	width: 65%;
+	height: 100%;
+	outline: 1px solid white;
+	flex-wrap: wrap;
+}
+
+.artist-page-video-description-container,
+.comments-container {
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	place-items: center;
+	outline: 1px solid gray;
+	width: 35%;
+	height: 100%;
+}
+
+.artist-page-video-container iframe {
+	border: 1 solid var(--logo-color-dark);
+	height: 99%;
+	width: 99%;
+	outline: 1px solid green;
+	place-self: center;
+	border-radius: 50px;
+}
+
+.artist-page-video-description-container div {
+	width: 100%;
+	height: 20%;
+	outline: 1px solid red;
+}
+
+.sub-video-container {
+	gap: 10px;
+	place-content: center;
+}
+
+.sub-video-container div {
+	width: 45%;
+	height: 40%;
+	outline: 1px solid gold;
+}
+
+.comments-container div {
+	width: 100%;
+	height: 25%;
+	outline: 1px solid white;
+}
+
 /*Modal Styles*/
 .full-site-modal.page-block {
 	display: flex;
