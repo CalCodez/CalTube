@@ -11,10 +11,11 @@
 
 .artist-page-top-container {
 	height: 70vh;
-	outline: 1px solid white;
+	/*outline: 1px solid white;*/
 }
 .artist-page-bottom-container {
-	height: 30vh;
+	height: 600px;
+	margin-bottom: 80px;
 }
 
 .artist-page-video-container,
@@ -30,43 +31,61 @@
 .comments-container {
 	display: flex;
 	flex-direction: column;
-	place-content: center;
-	place-items: center;
 	outline: 1px solid gray;
 	width: 35%;
 	height: 100%;
+	color: var(--gray-variant);
+	line-height: 2;
 }
 
 .artist-page-video-container iframe {
 	border: 1 solid var(--logo-color-dark);
 	height: 99%;
 	width: 99%;
-	outline: 1px solid green;
+	/*outline: 1px solid green;*/
 	place-self: center;
 	border-radius: 50px;
 }
 
 .artist-page-video-description-container div {
 	width: 100%;
-	height: 20%;
+	height: 50%;
 	outline: 1px solid red;
 }
 
+.artist-page-video-description-container .artist-banner img {
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+
 .sub-video-container {
-	gap: 10px;
-	place-content: center;
+	justify-content: space-evenly;
+	row-gap: 20px;
+	height: 100%;
 }
 
 .sub-video-container div {
-	width: 45%;
-	height: 40%;
-	outline: 1px solid gold;
+	display: flex;
+	width: 48%;
+	height: 50%;
+	/*outline: 1px solid gold;*/
+}
+
+.sub-video-container div:hover {
+	transform: scale(1.1);
+}
+
+.sub-video-container iframe {
+	border: none;
+	width: 95%;
+	height: 95%;
 }
 
 .comments-container div {
 	width: 100%;
 	height: 25%;
-	outline: 1px solid white;
+	/*outline: 1px solid white;*/
 }
 
 /*Modal Styles*/
