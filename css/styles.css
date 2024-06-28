@@ -4,7 +4,6 @@
 	flex-direction: row;
 	place-content: center;
 	place-items: center;
-	outline: 1px solid yellow;
 	width: 100%;
 	flex-wrap: wrap;
 }
@@ -14,8 +13,9 @@
 	/*outline: 1px solid white;*/
 }
 .artist-page-bottom-container {
-	height: 600px;
+	height: auto;
 	margin-bottom: 80px;
+	padding: 20px 0;
 }
 
 .artist-page-video-container,
@@ -23,7 +23,6 @@
 	display: flex;
 	width: 65%;
 	height: 100%;
-	outline: 1px solid white;
 	flex-wrap: wrap;
 }
 
@@ -31,7 +30,6 @@
 .comments-container {
 	display: flex;
 	flex-direction: column;
-	outline: 1px solid gray;
 	width: 35%;
 	height: 100%;
 	color: var(--gray-variant);
@@ -39,18 +37,16 @@
 }
 
 .artist-page-video-container iframe {
-	border: 1 solid var(--logo-color-dark);
-	height: 99%;
+	border: 1px solid var(--logo-color-dark);
+	height: 95%;
 	width: 99%;
-	/*outline: 1px solid green;*/
-	place-self: center;
-	border-radius: 50px;
+	justify-self: center;
+	margin-top: 0;
 }
 
 .artist-page-video-description-container div {
 	width: 100%;
 	height: 50%;
-	outline: 1px solid red;
 }
 
 .artist-page-video-description-container .artist-banner img {
@@ -61,31 +57,40 @@
 
 .sub-video-container {
 	justify-content: space-evenly;
-	row-gap: 20px;
 	height: 100%;
+	gap: 15px;
 }
 
-.sub-video-container div {
-	display: flex;
-	width: 48%;
-	height: 50%;
-	/*outline: 1px solid gold;*/
+.sub-video-container .video-container {
+	width: 40%;
 }
 
-.sub-video-container div:hover {
-	transform: scale(1.1);
+.sub-video-container .video-container h4 {
+	color: var(--gray-variant);
+	font-size: large;
+	text-align: center;
 }
 
 .sub-video-container iframe {
 	border: none;
-	width: 95%;
-	height: 95%;
+	width: 100%;
+	height: 100%;
 }
 
 .comments-container div {
 	width: 100%;
 	height: 25%;
-	/*outline: 1px solid white;*/
+	border: 2px solid var(--gray-variant);
+	align-content: center;
+	background: rgba(0, 0, 0, 0.313);
+	font-size: large;
+	text-align: center;
+}
+
+.comments-container div:hover {
+	border-color: var(--logo-color-dark);
+	color: var(--log-dark);
+	background-color: var(--true-black);
 }
 
 /*Modal Styles*/
