@@ -127,6 +127,7 @@
 	height: 11%;
 	align-items: center;
 	gap: 46px;
+	margin-bottom: -80px;
 }
 .modal #menu-toggler {
 	font-size: 30px;
@@ -140,6 +141,18 @@
 	box-shadow: -2px 2px 8px 2px var(--logo-color-dark);
 	border-radius: 30px;
 	margin-top: -18px;
+}
+
+.modal .main-menu-list-wrapper {
+	display: felx;
+	flex-direction: column;
+	align-items: baseline;
+	row-gap: 30px;
+}
+
+.modal .main-menu-container .main-menu-list-wrapper i {
+	font-size: 1.2em;
+	margin-left: 12px;
 }
 
 .modal .main-menu-list-wrapper a {
