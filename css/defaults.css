@@ -130,8 +130,8 @@ hr {
 	font-weight: 700;
 	font-size: 0.65em;
 }
-.main-menu-container a:hover {
-	transform: scale(1.1);
+.main-menu-container li:hover {
+	transform: scale(1.4);
 }
 
 .main-body-container {

@@ -2,15 +2,13 @@
 .artist-page-containers {
 	display: flex;
 	flex-direction: row;
-	place-content: center;
-	place-items: center;
+	justify-content: space-evenly;
 	width: 100%;
 	flex-wrap: wrap;
 }
 
 .artist-page-top-container {
 	height: 70vh;
-	/*outline: 1px solid white;*/
 }
 .artist-page-bottom-container {
 	height: auto;
@@ -21,7 +19,7 @@
 .artist-page-video-container,
 .sub-video-container {
 	display: flex;
-	width: 65%;
+	width: 60%;
 	height: 100%;
 	flex-wrap: wrap;
 }
@@ -37,10 +35,9 @@
 }
 
 .artist-page-video-container iframe {
-	border: 1px solid var(--logo-color-dark);
-	height: 95%;
-	width: 99%;
-	justify-self: center;
+	border: 1px groove var(--logo-color-dark);
+	height: 98%;
+	width: 100%;
 	margin-top: 0;
 }
 
