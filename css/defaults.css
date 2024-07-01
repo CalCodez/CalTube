@@ -3,6 +3,7 @@
 	--true-black: #000;
 	--black: #181818;
 	--black-gray-dark: #212121;
+	--black-gray-darker: #0d0d0d;
 	--gray-dark: #3d3d3d;
 	--gray-light: #a3a3a3;
 	--logo-color-dark: #ac0f25;
@@ -37,7 +38,8 @@ html {
 	place-items: center;
 	background-color: var(--true-black);
 }
-body {
+body,
+.main-page {
 	display: flex;
 	flex-direction: row;
 	background-color: var(--true-black);
@@ -244,6 +246,7 @@ input {
 	font-size: 1rem;
 	color: var(--true-black);
 }
+
 #sign-button-like {
 	display: flex;
 	width: 100%;
