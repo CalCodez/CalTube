@@ -269,11 +269,18 @@ input {
 .link-bar-container {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	justify-content: center;
+	text-align: center;
 	width: 100%;
 	height: 20%;
-	background-color: var(--black-gray-dark);
+	background-color: var(--black-gray-darker);
 	gap: 5px;
+}
+
+.link-bar-container marquee {
+	width: 20%;
+	text-align: center;
+	color: var(--logo-color-darker);
 }
 
 .link-bar-container a {
