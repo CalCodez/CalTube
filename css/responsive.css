@@ -1,0 +1,116 @@
+@media (max-width: 1366px) {
+	.video-container {
+		width: 250px;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu-toggler-mr {
+		display: block;
+		position: absolute;
+		font-size: 35px;
+		z-index: 20;
+		top: 3%;
+		left: 90%;
+	}
+
+	.main-menu-container {
+		display: none;
+	}
+
+	.logo-search-user-container {
+		height: 50%;
+		width: 100%;
+		justify-content: space-evenly;
+		gap: 20px;
+	}
+
+	.logo-search-user-container .logo-continaer {
+		width: 20%;
+		border-radius: 0;
+	}
+
+	.search-bar-container {
+		width: 50%;
+	}
+
+	.search-bar-container i {
+		left: 90%;
+	}
+
+	input {
+		padding: 8px;
+		width: 40vw;
+	}
+
+	.mic-sign-in-handler {
+		width: 20%;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.mic-sign-in-handler .mic-container {
+		display: none;
+	}
+
+	.sign-in-container {
+		width: 100%;
+	}
+
+	#sign-button-like {
+		width: 80%;
+	}
+
+	.artist-page-containers {
+		outline: 2px solid yellow;
+		flex-direction: column;
+		place-content: center;
+	}
+
+	.full-site-modal .main-menu-container {
+		display: block;
+		width: 50%;
+		position: absolute;
+		left: 40%;
+	}
+
+	.artist-page-top-container {
+		flex-direction: row;
+		height: 80%;
+	}
+
+	.artist-page-video-container,
+	.sub-video-container {
+		width: 100%;
+		outline: 1px solid yellow;
+	}
+
+	.artist-page-video-description-container,
+	.comments-container {
+		width: 100%;
+	}
+
+	.modal .menu-toggler-container {
+		height: fit-content;
+		position: relative;
+		margin-top: 0;
+	}
+
+	.modal #menu-toggler {
+		position: absolute;
+		font-size: 35px;
+		right: 0;
+		top: 25px;
+	}
+
+	.modal .menu-toggler-container .logo-continaer {
+		display: none;
+		outline: 1px solid white;
+	}
+
+	.modal .main-menu-list-wrapper {
+		justify-content: center;
+		width: 80%;
+		margin-left: 4px;
+	}
+}
