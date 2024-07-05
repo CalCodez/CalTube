@@ -166,16 +166,6 @@
 	color: var(--logo-color-dark);
 }
 
-.reference-sub-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 30%;
-	width: 100%;
-	text-align: center;
-	font-size: 80%;
-}
-
 .reference-container a {
 	display: flex;
 	justify-content: center;
@@ -188,6 +178,15 @@
 	font-size: 100%;
 	gap: 10px;
 	border-radius: 20px;
+}
+.reference-sub-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30%;
+	width: 100%;
+	text-align: center;
+	font-size: 80%;
 }
 
 .reference-container a:hover {

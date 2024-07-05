@@ -5,6 +5,17 @@
 }
 
 @media (max-width: 768px) {
+	.main-page-enter-exit-container a {
+		height: 15%;
+		font-size: 1em;
+	}
+
+	.reference-container a {
+		height: 30%;
+		width: 70%;
+		font-size: 100%;
+	}
+
 	.menu-toggler-mr {
 		display: block;
 		position: absolute;
@@ -88,11 +99,9 @@
 	.artist-page-video-container {
 		width: 100%;
 		height: fit-content;
-		outline: 2px solid yellow;
 	}
 	.artist-page-video-container iframe {
-		outline: 2px solid lime;
-		width: 90%;
+		width: 95%;
 		height: 500px;
 	}
 
