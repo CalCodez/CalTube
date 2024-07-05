@@ -250,9 +250,10 @@
 }
 
 .sub-video-container {
-	justify-content: space-evenly;
+	justify-content: center;
 	height: 100%;
-	gap: 15px;
+	gap: 20px;
+	flex-wrap: wrap;
 }
 
 .sub-video-container .video-container {

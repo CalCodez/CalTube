@@ -62,7 +62,6 @@
 	}
 
 	.artist-page-containers {
-		outline: 2px solid yellow;
 		flex-direction: column;
 		place-content: center;
 	}
@@ -76,18 +75,51 @@
 
 	.artist-page-top-container {
 		flex-direction: row;
-		height: 80%;
+		height: auto;
+		gap: 15px;
+		margin-bottom: 60px;
+	}
+	.artist-page-bottom-container {
+		flex-direction: row;
+		height: auto;
+		gap: 50px;
 	}
 
-	.artist-page-video-container,
+	.artist-page-video-container {
+		width: 100%;
+		height: fit-content;
+		outline: 2px solid yellow;
+	}
+	.artist-page-video-container iframe {
+		outline: 2px solid lime;
+		width: 90%;
+		height: 500px;
+	}
+
 	.sub-video-container {
 		width: 100%;
-		outline: 1px solid yellow;
+		justify-content: cener;
+		height: fit-content;
 	}
 
 	.artist-page-video-description-container,
 	.comments-container {
 		width: 100%;
+		height: fit-content;
+	}
+
+	.artist-page-artist-name {
+		padding-left: 8px;
+	}
+
+	.comments-container {
+		gap: 20px;
+		align-items: center;
+		padding: 10px 0;
+	}
+
+	.comments-container > div {
+		width: 70%;
 	}
 
 	.modal .menu-toggler-container {
