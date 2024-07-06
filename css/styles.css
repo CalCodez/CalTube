@@ -345,7 +345,7 @@ form {
 
 #upload-video-title,
 #upload-video-description {
-	width: 50%;
+	width: 80%;
 	height: 150px;
 	background-color: var(--black-gray-dark);
 	color: var(--logo-color-dark);
@@ -380,9 +380,14 @@ option::selection {
 
 .upload-footer-icon-container {
 	display: flex;
-	justify-content: space-around;
-	width: 15%;
+	justify-content: space-evenly;
+	width: 25%;
 	height: fit-content;
+	gap: 10px;
+}
+
+.upload-footer-icon-container i {
+	font-size: 1.7em;
 }
 
 .upload-footer-btn-contianer {
@@ -390,10 +395,6 @@ option::selection {
 	justify-content: center;
 	width: 20%;
 	height: auto;
-}
-
-.upload-footer-icon-container i {
-	font-size: 1.7em;
 }
 
 .upload-footer-btn-contianer button {
