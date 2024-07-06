@@ -4,6 +4,7 @@
 	--black: #181818;
 	--black-gray-dark: #212121;
 	--black-gray-darker: #0d0d0d;
+	--black-gray-darker-transparent: #0d0d0d6a;
 	--gray-dark: #3d3d3d;
 	--gray-light: #a3a3a3;
 	--logo-color-dark: #ac0f25;
@@ -214,7 +215,7 @@ hr {
 	bottom: 2%;
 }
 
-input {
+.search-icon-container input {
 	background-color: var(--ture-black);
 	color: var(--logo-color-dark);
 	padding: 10px;

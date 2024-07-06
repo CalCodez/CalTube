@@ -287,6 +287,125 @@
 	background-color: var(--true-black);
 }
 
+/* Upload New Video Styles */
+.upload-container-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: auto;
+	width: 80vw;
+	padding-top: 8px;
+	background-color: var(--black-gray-darker-transparent);
+	border: 3px solid var(--true-black);
+}
+
+.upload-header-container {
+	display: flex;
+	width: 100%;
+	height: fit-content;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--true-black);
+}
+
+.upload-icon-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 10%;
+}
+
+.upload-icon-wrapper > div {
+	font-size: 1.5em;
+	height: 100%;
+}
+
+.upload-header-container p {
+	font-size: 1.8em;
+	height: 100%;
+	color: var(--logo-color-dark);
+}
+
+.upload-container-body hr {
+	border: 5px inset var(--true-black);
+	margin: 15px 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+	width: 60%;
+	height: auto;
+	padding-bottom: 50px;
+	place-self: center;
+	margin: 15px 0;
+}
+
+#upload-video-title,
+#upload-video-description {
+	width: 50%;
+	height: 150px;
+	background-color: var(--black-gray-dark);
+	color: var(--logo-color-dark);
+}
+textarea::placeholder {
+	color: var(--logo-color-dark);
+	font-size: 1.3em;
+	font-weight: 900;
+}
+
+select {
+	background-color: var(--black-gray-dark);
+	width: 40%;
+	height: 30px;
+	color: var(--logo-color-dark);
+}
+
+option::selection {
+	background-color: var(--log-dark);
+	color: black;
+}
+
+.upload-footer-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background-color: var(--true-black);
+}
+
+.upload-footer-icon-container {
+	display: flex;
+	justify-content: space-around;
+	width: 15%;
+	height: fit-content;
+}
+
+.upload-footer-btn-contianer {
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	height: auto;
+}
+
+.upload-footer-icon-container i {
+	font-size: 1.7em;
+}
+
+.upload-footer-btn-contianer button {
+	width: 100px;
+	height: 40px;
+	color: var(--logo-color-dark);
+	background: var(--true-black);
+	border: 2px inset var(--logo-color-dark);
+	border-radius: 8px;
+	box-shadow: -1px 1px 10px 1px var(--gray-variant);
+}
+
 /*Modal Styles*/
 .full-site-modal.page-block {
 	display: flex;
