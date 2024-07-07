@@ -374,7 +374,7 @@ option::selection {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	height: auto;
+	height: 80px;
 	background-color: var(--true-black);
 }
 
@@ -400,11 +400,11 @@ option::selection {
 .upload-footer-btn-contianer button {
 	width: 100px;
 	height: 40px;
-	color: var(--logo-color-dark);
-	background: var(--true-black);
-	border: 2px inset var(--logo-color-dark);
+	color: var(--ture-black);
+	background: var(--logo-color-darker);
+	border: 2px inset var(--black-gray-dark);
 	border-radius: 8px;
-	box-shadow: -1px 1px 10px 1px var(--gray-variant);
+	box-shadow: -1px 1px 10px 1px var(--logo-color-dark);
 }
 
 /*Modal Styles*/
