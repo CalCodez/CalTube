@@ -1,6 +1,24 @@
 @media (max-width: 1366px) {
+	.main-menu-list-wrapper li {
+		font-size: 0.8em;
+	}
+
 	.video-container {
 		width: 250px;
+	}
+
+	.video-container .video-btn-container {
+		font-size: 0.8em;
+	}
+
+	.main-page-footer-container .reference-container {
+		height: 100%;
+		width: 30%;
+		row-gap: 10px;
+	}
+
+	.main-page-footer-container .reference-container a {
+		width: 30%;
 	}
 }
 
@@ -46,13 +64,13 @@
 	}
 
 	.search-bar-container i {
-		left: 90%;
+		left: 70%;
 	}
 
-	input {
+	.header-bar-container input {
 		padding: 8px;
-		width: 48vw;
-		margin-left: -50px;
+		width: 40vw;
+		margin-left: -40px;
 	}
 
 	.mic-sign-in-handler {
@@ -70,6 +88,7 @@
 		width: 10%;
 		position: absolute;
 		top: 6%;
+		left: 70%;
 	}
 
 	#sign-button-like {
@@ -159,7 +178,6 @@
 
 	.modal .menu-toggler-container .logo-continaer {
 		display: none;
-		outline: 1px solid white;
 	}
 
 	.modal .main-menu-list-wrapper {

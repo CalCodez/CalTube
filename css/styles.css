@@ -305,6 +305,7 @@
 	padding-top: 8px;
 	background-color: var(--black-gray-darker-transparent);
 	border: 3px solid var(--true-black);
+	border-radius: 8px;
 }
 
 .upload-header-container {
@@ -314,7 +315,10 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background-color: var(--true-black);
+	background: linear-gradient(
+		var(--black-gray-darker),
+		var(--logo-color-darker)
+	);
 }
 
 .upload-icon-wrapper {
@@ -333,11 +337,6 @@
 	font-size: 1.8em;
 	height: 100%;
 	color: var(--logo-color-dark);
-}
-
-.upload-container-body hr {
-	border: 5px inset var(--true-black);
-	margin: 15px 0;
 }
 
 form {
@@ -366,7 +365,7 @@ textarea::placeholder {
 
 select {
 	background-color: var(--black-gray-dark);
-	width: 40%;
+	width: 75%;
 	height: 30px;
 	color: var(--logo-color-dark);
 }
