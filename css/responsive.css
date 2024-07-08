@@ -32,7 +32,7 @@
 	.logo-search-user-container {
 		height: 50%;
 		width: 100%;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		gap: 20px;
 	}
 
@@ -51,13 +51,14 @@
 
 	input {
 		padding: 8px;
-		width: 40vw;
+		width: 48vw;
+		margin-left: -50px;
 	}
 
 	.mic-sign-in-handler {
 		width: 20%;
 		justify-content: center;
-		gap: 10px;
+		width: fit-content;
 	}
 
 	.mic-sign-in-handler .mic-container {
@@ -66,19 +67,20 @@
 
 	.sign-in-container {
 		width: 100%;
-		margin-left: 50px;
+		width: 10%;
+		position: absolute;
+		top: 6%;
 	}
 
 	#sign-button-like {
 		width: 100%;
+		border: 2px ridge var(--logo-color-dark);
 	}
 
-
-.video-container .video-btn-container a{
-font-size: 0.875rem;
-font-weight: 600;
-}
-
+	.video-container .video-btn-container a {
+		font-size: 0.875rem;
+		font-weight: 600;
+	}
 
 	.artist-page-containers {
 		flex-direction: column;
@@ -138,8 +140,8 @@ font-weight: 600;
 		width: 85%;
 	}
 
-	.modal .main-menu-container{
-	margin-top: 10px;
+	.modal .main-menu-container {
+		margin-top: 10px;
 	}
 
 	.modal .menu-toggler-container {
@@ -168,6 +170,15 @@ font-weight: 600;
 }
 
 @media (max-width: 412px) {
+	.menu-toggler-mr {
+		top: 2.5%;
+		left: 87%;
+	}
+
+	.modal #menu-toggler {
+		left: 84%;
+	}
+
 	.logo-continaer {
 		width: auto;
 	}
@@ -186,10 +197,12 @@ font-weight: 600;
 
 	.sign-in-container {
 		width: auto;
+		right: 28%;
 	}
 
 	#sign-button-like {
 		width: 100px;
+		left: 10%;
 	}
 
 	.link-bar-container {
@@ -200,11 +213,9 @@ font-weight: 600;
 		font-size: 12px;
 	}
 
-.sub-video-container .video-container{
-
-width: 80%;
-}
-
+	.sub-video-container .video-container {
+		width: 80%;
+	}
 
 	.main-page-header-container {
 		flex-direction: column;
@@ -263,10 +274,9 @@ width: 80%;
 		font-size: 1.2em;
 	}
 
-
-.upload-footer-container{
-height: fit-content;
-}
+	.upload-footer-container {
+		height: fit-content;
+	}
 
 	.upload-footer-icon-container i {
 		font-size: 1.2em;
@@ -276,87 +286,7 @@ height: fit-content;
 		width: 40%;
 	}
 
-
-	.upload-footer-btn-contianer {
-
+	.modal .main-menu-container {
+		margin-top: 15px;
+	}
 }
-/*
-@media (max-width: 376px) {
-	.logo-continaer {
-		width: auto;
-	}
-
-	.logo-continaer img {
-		width: 160px;
-	}
-
-	.header-bar-container > * {
-		justify-content: space-between;
-	}
-
-	.search-bar-container {
-		display: none;
-	}
-
-	.sign-in-container {
-		width: auto;
-	}
-
-	#sign-button-like {
-		width: 100px;
-	}
-
-	.link-bar-container {
-		justify-content: center;
-	}
-
-	marquee {
-		font-size: 12px;
-	}
-	.main-page-header-container {
-		flex-direction: column;
-		width: 100%;
-		align-items: center;
-	}
-
-	.main-page-image-container {
-		width: 100%;
-		height: 60%;
-	}
-
-	.main-page-enter-exit-container {
-		width: 100%;
-	}
-	.main-page-enter-exit-container a {
-		height: 40%;
-		width: 33%;
-	}
-
-	.main-page-card-contianer {
-		flex-direction: column;
-		align-content: center;
-		width: 100%;
-		row-gap: 20px;
-		height: auto;
-	}
-
-	.collection-card {
-		width: 70%;
-	}
-
-	.main-page-footer-container {
-		flex-direction: column;
-		height: auto;
-	}
-
-	.reference-container {
-		width: 90%;
-		height: 150px;
-	}
-
-	.reference-container a {
-		height: 30%;
-		width: 60%;
-		font-size: 100%;
-	}
-}*/
